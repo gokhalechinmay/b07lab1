@@ -7,8 +7,8 @@ public class Polynomial{
 	public int[] exp;
 
 	public Polynomial(){
-		this.coeff = new double[] {0};
-		this.exp = new int[] {0};
+		this.coeff = null;
+		this.exp = null;
 	}
 
 	public Polynomial(double[] coeff, int[] powers){
